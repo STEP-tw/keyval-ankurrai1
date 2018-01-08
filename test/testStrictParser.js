@@ -12,7 +12,6 @@ var invalidKeyErrorChecker=function(key,pos) {
     return false;
   }
 }
-
 describe("strict parser",function(){
   it("should only parse keys that are specified for a single key",function(){
     let kvParser=new StrictParser(["name"]);
